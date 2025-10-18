@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "components/*": ["components/*"],
+      "hooks/*": ["hooks/*"],
+      "theme/*": ["theme/*"],
+      "styles/*": ["styles/*"],
+      "plugins/*": ["plugins/*"],
+      "assets/*": ["assets/*"]
+    },
+    "jsx": "react-jsx"   // ✅ Use the new JSX transform
+  },
+  "include": ["src"]
+}
+
+  

@@ -1,0 +1,30 @@
+{
+  "name": "freight-edge",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "lint": "next lint",
+    "build": "next build",
+    "start": "next start",
+    "sass": "sass --no-source-map src/assets/scss:public/css"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "@react-three/drei": "^9.56.6",
+    "@react-three/fiber": "^8.13.7",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.3.7",
+    "framer-motion": "^12.23.12",
+    "next": "^15.3.4",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.10",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18.3.1",
+    "sass": "^1.89.2",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8"
+  }
+}
