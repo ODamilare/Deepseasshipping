@@ -43,6 +43,7 @@
           .offcanvas-body {
             overflow-y: unset;
             flex-grow: 0;
+            color: white !important;
           }
         }
         .navbar-collapse {
@@ -51,7 +52,7 @@
             margin-top: 0;
             background: none;
             .dropdown-item {
-              color: $navbar-dark-color;
+              color: white !important;
               padding-left: 1rem;
               padding-top: 0.3rem;
               padding-bottom: 0.3rem;
@@ -62,7 +63,7 @@
           .nav-link.active,
           .nav-link:hover,
           .nav-link:focus {
-            color: $navbar-dark-color !important;
+            color: white !important;
           }
           .nav-link {
             padding-top: 0.3rem;

@@ -192,17 +192,28 @@ const ContactUs = () => {
           font-size: 1rem;
           color: #333;
         }
-        @media (max-width: 768px) {
-          .hero {
-            height: 40vh;
-          }
-          .hero-content h1 {
-            font-size: 2rem;
-          }
-          .hero-content p {
-            font-size: 1rem;
-          }
-        }
+         @media (max-width: 768px) {
+    .hero {
+      height: 40vh;
+      padding-top: 100px; /* add space for mobile navbar */
+    }
+    .hero-content {
+      margin-top: 20px;
+    }
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+    .hero-content p {
+      font-size: 0.8rem;
+    }
+  }
+
+  /* Optional: add a bit of space for small phones */
+  @media (max-width: 480px) {
+    .hero {
+      padding-top: 120px; /* more space on small phones */
+    }
+  }
       `}</style>
     </div>
   );

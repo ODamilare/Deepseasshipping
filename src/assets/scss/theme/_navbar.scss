@@ -187,11 +187,11 @@ nav.navbar.deep-navbar--hidden a.nav-link {
 }
 
 /* Make all nav links dark blue */
-.navbar-clone.fixed.nav-darkblue .nav-link {
+.navbar-clone.fixed.nav-darkblue .desktop-nav .nav-link {
   color: #0D314C !important;
 }
 
 /* Also adjust dropdown items if needed */
-.navbar-clone.fixed.nav-darkblue .dropdown-item {
+.navbar-clone.fixed.nav-darkblue .desktop-nav .dropdown-item {
   color: #0D314C !important;
 }

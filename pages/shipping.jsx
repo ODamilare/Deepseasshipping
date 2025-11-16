@@ -7,7 +7,7 @@ const ShippingPage = () => {
       {/* Hero Section */}
       <div className="hero">
         <Image
-          src="/img/shipping-hero.webp" // 👈 change to your hero image
+          src="/img/treysongz.jpg" // 👈 change to your hero image
           alt="Shipping Services"
           fill
           style={{ objectFit: 'cover' }}
@@ -20,7 +20,7 @@ const ShippingPage = () => {
             We provide full-scale maritime logistics solutions, from vessel chartering
             to ship-to-ship cargo transfers and complete vessel management.
           </p>
-          <Button style={{ backgroundColor: '#0D314C' }} className="text-white px-3 py-1">
+          <Button  href="/contactus" style={{ backgroundColor: '#0D314C' }} className="text-white px-3 py-1">
             Get Started <i className="uil uil-arrow-right ms-2" />
           </Button>
         </div>
@@ -43,9 +43,9 @@ const ShippingPage = () => {
           </div>
           <div className="col-md-6 image-section">
             <Image
-              src="/img/shipping-inner.webp" // 👈 inner image
+              src="/img/trustme.jpg" // 👈 inner image
               alt="Shipping Operations"
-              width={600}
+              width={500}
               height={400}
               className="rounded-image"
             />
@@ -125,17 +125,28 @@ const ShippingPage = () => {
           height: auto;
         }
 
-        @media (max-width: 768px) {
-          .hero {
-            height: 50vh;
-          }
-          .hero-content h1 {
-            font-size: 2rem;
-          }
-          .details {
-            padding: 40px 15px;
-          }
-        }
+         @media (max-width: 768px) {
+    .hero {
+      height: 60vh;
+      padding-top: 150px; /* add space for mobile navbar */
+    }
+    .hero-content {
+      margin-top: 20px;
+    }
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+    .hero-content p {
+      font-size: 0.8rem;
+    }
+  }
+
+  /* Optional: add a bit of space for small phones */
+  @media (max-width: 480px) {
+    .hero {
+      padding-top: 170px; /* more space on small phones */
+    }
+  }
       `}</style>
     </div>
   );

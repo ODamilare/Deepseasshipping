@@ -109,10 +109,24 @@ const Hero = () => {
           color: #fff;
         }
         .subtitle {
+          font-size: 0.75rem;
+          color: #f0f0f0;
+          max-width: 600px;
+        }
+           @media (max-width: 480px) {
+    .hero {
+      padding-top: 170px; /* more space on small phones */
+    }
+       h2 {
+          font-size: 2.6rem;
+          color: #fff;
+        }
+        .subtitle {
           font-size: 0.65rem;
           color: #f0f0f0;
           max-width: 600px;
         }
+  }
       `}</style>
     </div>
   );

@@ -4,19 +4,23 @@ export const services = [
 
   {
     id: 1,
-    title: 'Shipping'
+    title: 'Shipping',
+    url: '/shipping'
   },
   {
     id: 2,
-    title: 'Construction'
+    title: 'Construction',
+     url: '/construction'
   },
   {
     id: 3,
-    title: 'Sales & Purchase of Ships'
+    title: 'Sales & Purchase of Ships',
+     url: '/sales-purchase'
   },
   {
     id: 4,
-    title: 'Oil and Gas'
+    title: 'Oil and Gas',
+     url: '/oil-gas'
   },
  
 ];
@@ -30,28 +34,19 @@ export const usefulLinks = [
   {
     id: 2,
     title: 'About Us',
-    url: '#'
+    url: '/about'
   },
   {
     id: 3,
-    title: 'Services',
-    url: '#'
+    title: 'Vessel Tracking',
+    url: '/vessel-tracker'
   },
   {
     id: 5,
     title: 'Contact Us',
-    url: '#'
+    url: '/contactus'
   },
-  {
-    id: 6,
-    title: 'Blog',
-    url: '#'
-  },
-  {
-    id: 7,
-    title: 'Privacy Policy',
-    url: '#'
-  }
+
 ];
 
 export const factList = [

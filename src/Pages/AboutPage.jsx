@@ -128,17 +128,28 @@ const AboutPage = () => {
           height: auto;
         }
 
-        @media (max-width: 768px) {
-          .hero {
-            height: 50vh;
-          }
-          .hero-content h1 {
-            font-size: 2rem;
-          }
-          .details {
-            padding: 40px 15px;
-          }
-        }
+         @media (max-width: 768px) {
+    .hero {
+      height: 50vh;
+      padding-top: 140px; /* add space for mobile navbar */
+    }
+    .hero-content {
+      margin-top: 20px;
+    }
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+    .hero-content p {
+      font-size: 0.8rem;
+    }
+  }
+
+  /* Optional: add a bit of space for small phones */
+  @media (max-width: 480px) {
+    .hero {
+      padding-top: 160px; /* more space on small phones */
+    }
+  }
       `}</style>
     </div>
   );

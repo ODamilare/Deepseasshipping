@@ -15,17 +15,12 @@ const MissionVision = () => {
         />
         <div className="overlay"></div>
 
-        <motion.div
-          className="hero-content container text-center"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-        >
+     
           <h1>Our Mission & Vision</h1>
           <p>
-            Discover what drives Deep Sea Shipping and our aspirations for the future.
+            Discover what drives Deepseas Shipping and our aspirations for the future.
           </p>
-        </motion.div>
+       
       </div>
 
       {/* Mission & Vision Section */}
@@ -157,17 +152,28 @@ const MissionVision = () => {
           color: #333;
           font-size: 0.95rem;
         }
-        @media (max-width: 768px) {
-          .hero {
-            height: 35vh;
-          }
-          .hero-content h1 {
-            font-size: 2rem;
-          }
-          .hero-content p {
-            font-size: 1rem;
-          }
-        }
+          @media (max-width: 768px) {
+    .hero {
+      height: 40vh;
+      padding-top: 100px; /* add space for mobile navbar */
+    }
+    .hero-content {
+      margin-top: 20px;
+    }
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+    .hero-content p {
+      font-size: 0.8rem;
+    }
+  }
+
+  /* Optional: add a bit of space for small phones */
+  @media (max-width: 480px) {
+    .hero {
+      padding-top: 120px; /* more space on small phones */
+    }
+  }
       `}</style>
     </div>
   );

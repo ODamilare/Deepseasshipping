@@ -73,7 +73,7 @@ a.text-reset:hover,
 .plyr__control--overlaid:focus,
 .plyr__control--overlaid:hover,
 .navbar.navbar-light.fixed .btn.btn-outline-primary:not(:hover) {
-  color: $main-color !important;
+  color: $main-color;
 }
 .form-control:focus {
   border-color: tint-color($component-active-bg, 50%);
@@ -347,30 +347,37 @@ form.dark-fields .form-control:focus {
 }
 
 @media (min-width: 576px) {
-  .navbar-expand-sm.navbar-light .navbar-nav .dropdown:not(.dropdown-submenu) > .dropdown-toggle:after {
-    color: $main-color;
+  .navbar-expand-sm.navbar-light:not(.offcanvas-nav) 
+    .navbar-nav .dropdown:not(.dropdown-submenu) > .dropdown-toggle:after {
+    color: '#0D314C';
+;
   }
 }
 @media (min-width: 768px) {
-  .navbar-expand-md.navbar-light .navbar-nav .dropdown:not(.dropdown-submenu) > .dropdown-toggle:after {
-    color: $main-color;
+  .navbar-expand-md.navbar-light:not(.offcanvas-nav) 
+    .navbar-nav .dropdown:not(.dropdown-submenu) > .dropdown-toggle:after {
+     color: '#0D314C';
   }
 }
 @media (min-width: 992px) {
-  .navbar-expand-lg.navbar-light .navbar-nav .dropdown:not(.dropdown-submenu) > .dropdown-toggle:after {
-    color: $main-color;
+  .navbar-expand-lg.navbar-light:not(.offcanvas-nav) 
+    .navbar-nav .dropdown:not(.dropdown-submenu) > .dropdown-toggle:after {
+    color: '#0D314C';
   }
 }
 @media (min-width: 1200px) {
-  .navbar-expand-xl.navbar-light .navbar-nav .dropdown:not(.dropdown-submenu) > .dropdown-toggle:after {
-    color: $main-color;
+  .navbar-expand-xl.navbar-light:not(.offcanvas-nav) 
+    .navbar-nav .dropdown:not(.dropdown-submenu) > .dropdown-toggle:after {
+     color: '#0D314C';
   }
 }
 @media (min-width: 1400px) {
-  .navbar-expand-xxl.navbar-light .navbar-nav .dropdown:not(.dropdown-submenu) > .dropdown-toggle:after {
-    color: $main-color;
+  .navbar-expand-xxl.navbar-light:not(.offcanvas-nav) 
+    .navbar-nav .dropdown:not(.dropdown-submenu) > .dropdown-toggle:after {
+    color: '#0D314C';
   }
 }
+
 .navbar.navbar-light.fixed .btn.btn-outline-primary:not(:hover) {
   background: none !important;
 }

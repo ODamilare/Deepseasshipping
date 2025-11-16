@@ -21,7 +21,8 @@
 
   /* Set offcanvas background to dark blue */
   .offcanvas {
-    background-color: #012970 !important;
+    background-color: #0D314C !important;
+    color: white !important;
   }
 }
 

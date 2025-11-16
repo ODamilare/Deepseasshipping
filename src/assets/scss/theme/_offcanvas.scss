@@ -10,7 +10,7 @@
   .search-form {
     &:before {
       @include font-size(1rem);
-      color: $main-dark;
+      color:#0D314C;
       left: 0;
       right: auto;
     }
@@ -50,11 +50,13 @@
   padding-bottom: 0;
 }
 .offcanvas-nav {
+ 
   .offcanvas-header .btn-close {
     margin-right: -0.75rem;
   }
   .offcanvas-body {
     flex-grow: 0;
+     color: white !important;
   }
 }
 .offcanvas:not(.offcanvas-nav) {

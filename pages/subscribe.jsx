@@ -80,11 +80,28 @@ const SubscribePage = () => {
         .hero-content h1 { font-size: 2.5rem; margin-bottom: 1rem; color: #fff; }
         .hero-content p { font-size: 1.2rem; margin-bottom: 1rem; color: #f0f0f0; }
         .form-section { padding: 50px 15px; }
-        @media (max-width: 768px) {
-          .hero { height: 40vh; }
-          .hero-content h1 { font-size: 1.8rem; }
-          .hero-content p { font-size: 1rem; }
-        }
+          @media (max-width: 768px) {
+    .hero {
+      height: 40vh;
+      padding-top: 100px; /* add space for mobile navbar */
+    }
+    .hero-content {
+      margin-top: 20px;
+    }
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+    .hero-content p {
+      font-size: 0.8rem;
+    }
+  }
+
+  /* Optional: add a bit of space for small phones */
+  @media (max-width: 480px) {
+    .hero {
+      padding-top: 120px; /* more space on small phones */
+    }
+  }
       `}</style>
     </div>
   );

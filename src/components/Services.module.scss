@@ -4,15 +4,17 @@
   gap: 2rem;
   padding: 3rem;
   background-color: #f8f9fa;
-
-  @media (max-width: 1200px) {
-    grid-template-columns: repeat(4, 1fr);
-  }
-  @media (max-width: 992px) {
+  @media (max-width: 1300px) {
     grid-template-columns: repeat(3, 1fr);
   }
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (max-width: 992px) {
     grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
   }
   @media (max-width: 576px) {
     grid-template-columns: 1fr;
@@ -56,4 +58,4 @@
   color: #555;
   line-height: 1.4;
 }
-/* Put this in your global CSS or a module imported globally */
+
