@@ -53,7 +53,29 @@ function MyApp({ Component, pageProps }) {
         <title>Deepseas Shipping and Construction Limited</title>
         <meta name="description" content="Deepseas Shipping and Construction Limited" />
 
-          <link rel="icon" href="/img/favicon.ico" />
+        {/* Standard Favicons */}
+        <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="48x48" href="/img/favicon/favicon-48x48.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png" />
+        <link rel="shortcut icon" href="/img/favicon/favicon.ico" />
+
+        {/* Apple Touch Icon */}
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png" />
+
+        {/* Android / Chrome PWA Icons */}
+        <link rel="icon" type="image/png" sizes="192x192" href="/img/favicon/android-chrome-192x192.png" />
+        <link rel="icon" type="image/png" sizes="512x512" href="/img/favicon/android-chrome-512x512.png" />
+
+        {/* Manifest for PWA */}
+        <link rel="manifest" href="/img/favicon/site.webmanifest" />
+
+        {/* Optional: Safari pinned tab */}
+        <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#0D314C" />
+
+        {/* Meta for theme colors */}
+        <meta name="msapplication-TileColor" content="#0D314C" />
+        <meta name="theme-color" content="#0D314C" />
 
         {/* Open Graph Tags */}
         <meta property="og:type" content="website" />
@@ -73,13 +95,8 @@ function MyApp({ Component, pageProps }) {
       {/* App Layout with ThemeProvider */}
       <Layout>
         <ThemeProvider>
-          {loading ? (
-            <div className="page-loader" />
-          ) : (
-            <Component {...pageProps} />
-          )}
+          {loading ? <div className="page-loader" /> : <Component {...pageProps} />}
         </ThemeProvider>
-
       </Layout>
     </Fragment>
   );
