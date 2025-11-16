@@ -15,12 +15,12 @@ const Home = () => {
 
       {/* SEO Meta Tags */}
       <Head>
-        <title>DeepSeas Shipping</title>
+        <title>Deepseas Shipping</title>
         <meta
           name="description"
           content=""
         />
-        <link rel="canonical" href="https://www.freightedge.com/" />
+        <link rel="canonical" href="https://deepseasshipping.netlify.app/" />
       </Head>
 
       {/* Main Page Content */}

@@ -62,16 +62,16 @@ function MyApp({ Component, pageProps }) {
         {/* Open Graph Tags */}
         <meta property="og:type" content="website" />
         <meta property="og:title" content="DeepSeas Shipping and Construction Limited" />
-        <meta property="og:description" content="Modern Next.js & React website template for logistics, cargo, and freight forwarding services." />
+        <meta property="og:description" content="We are a diversified maritime and logistics firm with decades of combined experience. We specialize in vessel management, offshore support, marine infrastructure construction, and integrated trading operations." />
         <meta property="og:url" content="https://themixly.com/themes/freight-forwarding-react-nextjs-template/" />
-        <meta property="og:image" content="https://themixly.com/wp-content/uploads/2025/07/image-3-1-scaled.jpg" />
-        <meta property="og:image:secure_url" content="https://themixly.com/wp-content/uploads/2025/07/image-3-1-scaled.jpg" />
+        <meta property="og:image" content="https://deepseasshipping.netlify.app/img/favicon/android-chrome-512x512.png" />
+        <meta property="og:image:secure_url" content="https://deepseasshipping.netlify.app/img/favicon/android-chrome-512x512.png" />
 
         {/* Twitter Card Tags */}
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="FreightEdge – Next.js Template for Freight Forwarding & Logistics Companies" />
-        <meta name="twitter:description" content="Modern Next.js & React website template for logistics, cargo, and freight forwarding services." />
-        <meta name="twitter:image" content="https://themixly.com/wp-content/uploads/2025/07/image-3-1-scaled.jpg" />
+        <meta name="twitter:title" content="DeepSeas Shipping and Construction Limited" />
+        <meta name="twitter:description" content="We are a diversified maritime and logistics firm with decades of combined experience. We specialize in vessel management, offshore support, marine infrastructure construction, and integrated trading operations." />
+        <meta name="twitter:image" content="https://deepseasshipping.netlify.app/img/favicon/android-chrome-512x512.png" />
       </Head>
 
       {/* App Layout with ThemeProvider */}
