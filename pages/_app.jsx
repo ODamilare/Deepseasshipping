@@ -51,7 +51,9 @@ function MyApp({ Component, pageProps }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Deepseas Shipping and Construction Limited</title>
-        <meta name="description" content="Modern Next.js & React website template for logistics, cargo, and freight forwarding services." />
+        <meta name="description" content="Deepseas Shipping and Construction Limited" />
+
+          <link rel="icon" href="/img/favicon.ico" />
 
         {/* Open Graph Tags */}
         <meta property="og:type" content="website" />
