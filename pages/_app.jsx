@@ -30,9 +30,9 @@ function MyApp({ Component, pageProps }) {
     const initScrollCue = async () => {
       const scrollCue = (await import('plugins/scrollcue')).default;
       scrollCue.init({
-        interval: -400, // delay between items
-        duration: 700,  // animation duration
-        percentage: 0.8 // when to trigger animation
+        interval: -400,
+        duration: 700,
+        percentage: 0.8,
       });
       scrollCue.update();
     };
@@ -53,29 +53,11 @@ function MyApp({ Component, pageProps }) {
         <title>Deepseas Shipping and Construction Limited</title>
         <meta name="description" content="Deepseas Shipping and Construction Limited" />
 
-        {/* Standard Favicons */}
-        <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="48x48" href="/img/favicon/favicon-48x48.png" />
-        <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png" />
-        <link rel="shortcut icon" href="/img/favicon/favicon.ico" />
-
-        {/* Apple Touch Icon */}
+        {/* Favicons */}
         <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png" />
-
-        {/* Android / Chrome PWA Icons */}
-        <link rel="icon" type="image/png" sizes="192x192" href="/img/favicon/android-chrome-192x192.png" />
-        <link rel="icon" type="image/png" sizes="512x512" href="/img/favicon/android-chrome-512x512.png" />
-
-        {/* Manifest for PWA */}
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png" />
         <link rel="manifest" href="/img/favicon/site.webmanifest" />
-
-        {/* Optional: Safari pinned tab */}
-        <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#0D314C" />
-
-        {/* Meta for theme colors */}
-        <meta name="msapplication-TileColor" content="#0D314C" />
-        <meta name="theme-color" content="#0D314C" />
 
         {/* Open Graph Tags */}
         <meta property="og:type" content="website" />
