@@ -58,6 +58,7 @@ const Hero = () => {
            <Button 
   style={{ backgroundColor: '#0D314C' }}
   className="text-white px-3 py-1"
+  href='/contactus'
 >
   {slide.button} <i className="uil uil-arrow-right ms-2" />
 </Button>

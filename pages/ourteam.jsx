@@ -5,22 +5,22 @@ import { Card, Modal, Button } from 'react-bootstrap';
 const teamMembers = [
   {
     name: 'Olabode J. Oluwashanu',
-    role: 'Managing Director',
-    photo: '/img/team/john.jpg',
+    role: 'CEO/Managing Director',
+    photo: '/img/joshua.jpg',
     bio: 'Over 15 years of experience in maritime logistics, shipping operations, and fleet management.',
     more: `Olabode oversees strategic direction, partnerships, and operations, ensuring Deep Sea Shipping maintains industry-leading standards in Africa.`,
   },
   {
     name: 'Adetola Oluwashanu',
-    role: 'Operations Manager',
+    role: 'Administration Officer',
     photo: '/img/Adetola.jpg',
     bio: 'Expert in cargo handling, customer relationships, and port coordination.',
     more: `Adetola manages day-to-day port operations and leads initiatives that improve efficiency and customer satisfaction.`,
   },
   {
-    name: 'Michael Lee',
-    role: 'Finance & Compliance',
-    photo: '/img/team/michael.jpg',
+    name: 'Micheal Ogie',
+    role: 'Legal & Compliance',
+    photo: '/img/michael.jpg',
     bio: 'Handles financial oversight, compliance, and ensures smooth day-to-day operations.',
     more: `Michael is responsible for financial planning, risk assessment, and regulatory compliance across all company operations.`,
   },
