@@ -11,7 +11,7 @@ const teamMembers = [
     more: `Olabode oversees strategic direction, partnerships, and operations, ensuring Deep Sea Shipping maintains industry-leading standards in Africa.`,
   },
   {
-    name: 'Adetola Oluwashanu',
+    name: 'Adetola Adekunle',
     role: 'Administration Officer',
     photo: '/img/Adetola.jpg',
     bio: 'Expert in cargo handling, customer relationships, and port coordination.',
