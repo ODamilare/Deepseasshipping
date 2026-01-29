@@ -108,6 +108,7 @@ const Navbar = ({
                 <li data-bs-dismiss="offcanvas">
                   <Link href="/MissionVision" className="dropdown-item">Mission & Vision</Link>
                 </li>
+              
               </ul>
             </li>
 
@@ -141,9 +142,13 @@ const Navbar = ({
             <li className="nav-item">
                <NextLink href="/vessel-tracker" title="Vessel Tracker" className="nav-link m-0" data-bs-dismiss="offcanvas" />
             </li>
+              <li className="nav-item">
+               <NextLink href="/CompaniesPage" title="Our Partners" className="nav-link m-0" data-bs-dismiss="offcanvas" />
+            </li>
             <li className="nav-item">
                <NextLink href="/contactus" title="Contact Us" className="nav-link m-0" data-bs-dismiss="offcanvas" />
             </li>
+            
           </ul>
 
           <div className="offcanvas-footer d-lg-none">
@@ -218,6 +223,9 @@ const Navbar = ({
             <li>
               <NextLink href="/MissionVision" title="Mission & Vision" className="dropdown-item" />
             </li>
+             <li>
+             
+            </li>
           </ul>
         </li>
         <li className="nav-item dropdown">
@@ -246,9 +254,14 @@ const Navbar = ({
         <li className="nav-item">
           <NextLink href="/vessel-tracker" title="Vessel Tracker" className={`nav-link m-0 ${atTop ? "text-white" : "text-dark"}`} />
         </li>
+          <li className="nav-item">
+          <NextLink href="/CompaniesPage" title="Our Partners" className={`nav-link m-0 ${atTop ? "text-white" : "text-dark"}`} />
+        </li>
         <li className="nav-item">
           <NextLink href="/contactus" title="Contact Us" className={`nav-link m-0 ${atTop ? "text-white" : "text-dark"}`} />
         </li>
+        
+        
       </ul>
     </Fragment>
   );
