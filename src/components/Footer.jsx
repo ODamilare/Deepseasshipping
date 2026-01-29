@@ -127,6 +127,14 @@ const Footer = () => {
             © {currentYear} Company. All rights reserved.
           </p>
         </div>
+          <a
+            href="https://webmail.go54mail.com/appsuite/#!!&app=io.ox/mail&folder=default0/INBOX"
+            className="btn btn-primary btn-sm"
+            aria-label="Login"
+          >
+            Login
+          </a>
+  
       </div>
     </footer>
   );
